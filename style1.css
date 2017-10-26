@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+table{
+    width: 1100px;
+    border-collapse: collapse;
+    border-top: 1px solid #0099CC;
+    border-left: 1px solid #0099CC;
+    margin-bottom: 20px;
+}
+
+th,td{
+    border-right: 1px solid #0099CC;
+    border-bottom: 1px solid #0099CC;
+    padding: 3px;
+    text-align: center;
+/*    width: 20%;*/
+}
+
+th{
+    color: #FFFFFF;
+    background: #0099CC;
+}
+
+.name select{
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1;
+    border: 1px solid #0099CC;
+    border-radius: 0;
+    height: 34px;
+    text-indent: 15%;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+}
+
+.styled-select select{
+    width: 50px;
+    height: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 1px solid #0099CC;
+    border-radius: 0;
+    height: 34px;
+    text-indent: 15%;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+}
+
+.submit{
+    width: 60px;
+    padding: 4px 10px;
+    color: #fff;
+    cursor: pointer;
+    background: #0099CC;
+}
+
+input{
+    font-size: 20px;
+    width: 90px;
+}
